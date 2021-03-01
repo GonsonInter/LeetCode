@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.Stack;
 
-public class 有效的字符串_20 {
+public class 有效的括号_20 {
 
     /**
      * 官方
