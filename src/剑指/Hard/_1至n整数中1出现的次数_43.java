@@ -2,7 +2,7 @@ package 剑指.Hard;
 
 import java.util.ArrayList;
 
-public class _______1至n整数中1出现的次数_43 {
+public class _1至n整数中1出现的次数_43 {
 
 
 //    /**

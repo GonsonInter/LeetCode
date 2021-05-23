@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class _____二叉树中和为某一值的路径_34 {
+public class 二叉树中和为某一值的路径_34 {
 
     /**
      * 递归
@@ -24,7 +24,7 @@ public class _____二叉树中和为某一值的路径_34 {
             res.add(new LinkedList<Integer>(path));
         }   else {
             recur(node.left, sum - node.val, path);
-            recur(node.right, sum = node.val, path);
+            recur(node.right, sum - node.val, path);
         }
         path.removeLast();
     }
